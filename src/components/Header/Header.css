@@ -1,0 +1,15 @@
+.Header {
+  background-color: #8a3ab9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.975);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  transition: height 0.2s ease-in-out;
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
