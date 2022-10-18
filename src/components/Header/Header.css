@@ -13,3 +13,13 @@
   align-items: center;
   padding: 15px;
 }
+.CerrarS{
+  border: none;
+  border-radius: 15px 0 0 15px;
+  font-size: 1rem;
+  box-shadow: 2px 3px 1px 0px;
+  color: #8a3ab9;
+}
+.CerrarS{
+  background: white;
+}

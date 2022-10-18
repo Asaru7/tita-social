@@ -18,7 +18,7 @@ export function Header(){
       <img className="Logo sCenter" src="https://titamedia.com/wp-content/uploads/2021/01/liga-tita@2x.png" />
         <span className="text-white sCenter">{user.displayName || user.email}</span>
         <button
-          className="sCenter"
+          className="sCenter CerrarS"
           onClick={handleLogout}
         >
           Cerrar Sesión

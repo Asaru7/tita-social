@@ -4,6 +4,14 @@
   border: 1px solid lightgray;
   margin-bottom: 45px;
 }
+.avatarButton{
+  background: none;
+  border: none;
+}
+.avatarButton:hover{
+  border-right: 5px solid #8a3ab9;
+  border-radius: 50%;
+}
 .post__image {
   width: 100%;
   object-fit: contain;

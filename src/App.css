@@ -7,6 +7,12 @@
 .m-1{
   margin: 1rem;
 }
+.comments{
+    padding: 8px;
+  background: none;
+  border-radius: 15rem;
+  margin: 5px;
+}
 .timeline {
   margin: 0 auto;
   max-width: 500px;
@@ -27,32 +33,19 @@
   width: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 420px){
+  .Logo{
+    width: 100px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .text-white{
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
+  #myBtnContainer{
+    margin-top: 3rem;
   }
+  .post_footer{
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+
 }
